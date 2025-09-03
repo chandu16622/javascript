@@ -1,0 +1,14 @@
+let age=66;
+try
+{
+    if(isNaN(age)){
+        throw "Age must be a number";
+    }
+    if(age<0){
+       throw "Age must be nagative";
+    }
+    console.log('Age is valid');
+}
+catch(err){
+    console.log("error:",err)
+}
